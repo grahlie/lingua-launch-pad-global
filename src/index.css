@@ -73,5 +73,5 @@
 }
 
 .bg-gradient-custom {
-  background: linear-gradient(135deg, #332467, #4e2a84, #7b348a);
+  background: radial-gradient(circle at 50% -50%, #727885, #111520);
 }
