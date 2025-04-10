@@ -3,7 +3,7 @@ import React from 'react';
 
 const Logo: React.FC = () => {
   return (
-    <div className="animate-float mb-12 logo-shadow">
+    <div className="animate-float mb-12 logo-shadow flex justify-center items-center">
       <img 
         src="/lovable-uploads/4708bb37-d4af-4e5f-9ac2-8cb6c17231c6.png" 
         alt="Company Logo" 

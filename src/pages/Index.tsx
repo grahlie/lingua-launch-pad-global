@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 const Index: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen bg-gradient-custom">
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-center p-6">
         <div className="container mx-auto flex flex-col items-center justify-center space-y-12">

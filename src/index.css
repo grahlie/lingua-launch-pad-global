@@ -71,3 +71,7 @@
   padding: 0;
   text-align: center;
 }
+
+.bg-gradient-custom {
+  background: linear-gradient(135deg, #0febc5, #3391ff, #f5b83d);
+}
