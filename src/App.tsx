@@ -3,7 +3,6 @@ import './App.css'
 import Background from './components/Background'
 
 const languages = [
-  'Coming Soon',
   '即将推出',
   'Próximamente',
   'Bientôt disponible',
@@ -38,23 +37,29 @@ function App() {
 
       <div className={`text-center transform transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'} relative z-10`}>
         {/* Logo */}
-        <div className="mb-16">
+        <div className="mb-8">
           <img
-            src="/03fee8d3-873b-475b-bbfa-b772e4e692b0.png"
+            src="/logotype.png"
             alt="Logo"
-            className="w-[40rem] h-[40rem] mx-auto object-contain"
+            className="logo"
           />
         </div>
 
         <div className="relative z-10">
+          {/* Main "Coming Soon" text */}
+          <h1 className="text-4xl md:text-6xl font-bold mb-2 text-glow bg-clip-text text-transparent bg-gradient-text">
+            Coming Soon
+          </h1>
+
+          {/* Language transition text */}
           <div className={`transition-opacity duration-500 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
-            <h1 className="text-4xl md:text-6xl font-bold mb-8 text-glow bg-clip-text text-transparent bg-gradient-text" data-text={languages[currentLanguage]}>
+            <h2 className="text-2xl md:text-3xl font-medium text-glow bg-clip-text text-transparent bg-gradient-text" data-text={languages[currentLanguage]}>
               {languages[currentLanguage]}
-            </h1>
+            </h2>
           </div>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-8">
           <a href="#" className="btn-secondary">
             Notify Me
           </a>
