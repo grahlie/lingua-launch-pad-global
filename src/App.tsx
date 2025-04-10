@@ -40,7 +40,7 @@ function App() {
         {/* Logo */}
         <div className="mb-16">
           <img
-            src="/lovable-uploads/03fee8d3-873b-475b-bbfa-b772e4e692b0.png"
+            src="/03fee8d3-873b-475b-bbfa-b772e4e692b0.png"
             alt="Logo"
             className="w-[40rem] h-[40rem] mx-auto object-contain"
           />
