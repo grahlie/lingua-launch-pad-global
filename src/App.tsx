@@ -60,7 +60,10 @@ function App() {
         </div>
 
         <div className="flex justify-center mt-8">
-          <a href="#" className="btn-secondary">
+          <a
+            href="mailto:matt@bet2play2win.com?subject=Bet2Play2Win%20Notification%20Request&body=I'm%20interested%20in%20receiving%20updates%20about%20Bet2Play2Win."
+            className="btn-secondary"
+          >
             Notify Me
           </a>
         </div>
