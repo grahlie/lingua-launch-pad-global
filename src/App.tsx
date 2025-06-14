@@ -46,12 +46,14 @@ function App() {
         </div>
 
         <div className="relative z-10">
-          {/* Main "Coming Soon" text */}
+          <h2 className="font-bold mb-4 text-glow bg-clip-text text-transparent bg-gradient-text">
+            Play to win it all across the best in sports betting, casino, slots, poker, lottery and predictors.
+          </h2>
+
           <h1 className="text-4xl md:text-6xl font-bold mb-2 text-glow bg-clip-text text-transparent bg-gradient-text">
             Coming Soon
           </h1>
 
-          {/* Language transition text */}
           <div className={`transition-opacity duration-500 ${isFading ? 'opacity-0' : 'opacity-100'}`}>
             <h2 className="text-2xl md:text-3xl font-medium text-glow bg-clip-text text-transparent bg-gradient-text" data-text={languages[currentLanguage]}>
               {languages[currentLanguage]}
